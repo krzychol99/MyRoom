@@ -7,7 +7,7 @@ public class ShapeCalculator {
         System.out.println("Square area: " + result);
     }
     void circleArea(double r){
-        double result = Math.PI*(Math.sqrt(r));
+        double result = Math.PI*(Math.pow(r,2));
         System.out.println("Circle area: " + result);
     }
     void triangleCircuit(double a, double b, double c){
